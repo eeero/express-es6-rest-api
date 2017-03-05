@@ -1,0 +1,6 @@
+{
+  "verbose": true,
+  "ext": "js",
+  "ignore": ["test/*"],
+  "exec": "NODE_ENV=development node startdev.js"
+}
