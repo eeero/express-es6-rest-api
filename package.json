@@ -9,6 +9,7 @@
   },
   "scripts": {
     "build-production": "babel -d dist -s false src",
+    "prestart": "npm run build-production",
     "start:dev": "nodemon",
     "start": "node startprod"
   },
