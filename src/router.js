@@ -1,5 +1,5 @@
 import path from 'path';
-module.exports = (app) => {
+const router = (app) => {
 
   app.get('/', function(req, res) {
     res.sendFile(path.resolve('public/index.html'));
@@ -21,3 +21,5 @@ module.exports = (app) => {
   });
 
 };
+
+export default router;
